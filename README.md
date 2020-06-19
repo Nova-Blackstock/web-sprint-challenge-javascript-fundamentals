@@ -27,13 +27,30 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach loops through EVERY item and console.logs desired results. It doesn't change array.
+.map creates a copy of the complete array that we can change.
+
 2. Explain the difference between a callback and a higher order function.
+
+callbacks are passed into higher order functions as parameters.
 
 3. What is closure?
 
+Closure governs the rules of scope. It is the hierarchy of parent-child relations. Curly
+brackets are a good sign that data is enclosed in its own scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+"this" in global scope is the window/console object.
+
+"this" refers to objects to the left of a dot. example:  this.key   'This' is an object and key 
+is a key of 'this'.
+
+Constructor functions are creating objects that will be referred to by "this."
+
 5. Why do we need super() in an extended class?
+
+Super() calls the parameters (typically keys) of the Parent class. Extends gets the prototypes.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
